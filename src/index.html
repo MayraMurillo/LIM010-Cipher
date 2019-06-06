@@ -1,15 +1,64 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SEGURIDAD DE LA INFORMACIÓN</title>
+
+</head>
+
+<body>
+    <div id="primerapantalla">
+      <h1 class"encabezado">SISTEMA DE PROTECCION DE LA INFORMACIÓN</h1>
+      <img id="mp" src="MP.JPG" alt="">
+
+      <li>Herramienta de ayuda para Jueces y Fiscales que manejan información
+         sensible sobre procesos de lucha anticorrupción</li>
+      <li>En esta página se podrá realizar el cifrado y descifrado de mensajes
+          confidenciales entre la red de fiscales y jueces que llevan casos
+          especiales sin que estos puedan ser filtrados a terceros</li>
+
+      <br>
+
+        <button id="cifrar" type="button" name="button">Ingreso para cifrar un mensaje</button>
+        <button id="descifrar" type="button" name="button">Ingreso para descifrar un mensaje</button>
+
+  </div>
+
+      <div id="segundapantalla">
+
+
+      <p>USUARIO</p><input type="text" name="" value="">
+      <p>CONTRASEÑA</p><input id="password" type="password" name="" value="">
+      <p id="mensaje"></p>
+      <button id="login" type="" name="button">INGRESAR</button>
+
+     </div>
+
+  <div id="tercerapantalla">
+
+     <p>Ingresa tu texto</p>
+     <input type="text" name="" value="">
+     <p>Clave</p>
+     <input id="offset" type="number" name="numero">
+     <br>
+     <button id="codificar" type="button" name="button">Cifrar</button>
+     <button id="decodificar" type="button" name="button">Descifrar</button>
+     <br>
+     <input type="text" name="" value="">
+
+     <br>
+     <button id="inicio" type="button" name="button">Volver al inicio</button>
+
+   </div>
+
+   <script type="text/javascript" src="app.js"></script>
+   <script src="index.js"></script>
+
+
+
+
+</body>
 </html>
