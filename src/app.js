@@ -54,3 +54,29 @@ inicio.addEventListener("click", () => {
   tercerapantalla.classList.add("hide");
 }
 )
+
+
+//jalar datos a codificar o decodificar de acuerdo a los botones
+codificar.addEventListener ("click",() => {
+  let texto = document.getElementById('texto');
+  let textoValue = texto.value;
+  console.log(textoValue)
+  let offset = document.getElementById("offset");
+  let offsetValue = offset.value
+  console.log(offsetValue)
+  let n = textoValue.charCodeAt(0);
+  console.log(n)
+  
+ 
+
+
+
+} )
+
+decodificar.addEventListener ("click",() => {
+  let texto = document.getElementById('texto');
+  console.log(texto.value)
+  let offset = document.getElementById("offset");
+  console.log(offset.value)
+ 
+} )
