@@ -26,23 +26,20 @@ descifrar.addEventListener("click", () => {
   segundapantalla.classList.remove("hide");
 })
 
-// contador
-let contador = 0
+let contador=0;
+
 //boton login
 login.addEventListener ("click", () => {
 const password = document.getElementById("password");
 const clave = password.value;
-
-if (clave === "LABORATORIA"){
+ if (clave === "LABORATORIA"){
   segundapantalla.classList.add("hide");
   tercerapantalla.classList.remove("hide");}
-
-else if (contador<3) {
+ else if (contador<3) {
   contador++;
   document.getElementById("mensaje").innerHTML =("CLAVE ERRADA");
 }
-
-else {
+ else {
   document.getElementById("mensaje").innerHTML =("Ya utilizaste todos tus intentos, en este momento no podrás ingresar");
 }
 }
@@ -54,3 +51,22 @@ inicio.addEventListener("click", () => {
   tercerapantalla.classList.add("hide");
 }
 )
+
+//jalar datos a codificar o decodificar de acuerdo a los botones
+codificar.addEventListener ("click",() => {
+  let string = document.getElementById('texto').value;
+  let offset = document.getElementById("offset").value;
+  const parse = parseInt(offset);
+  let respuesta = document.getElementById("respuesta");
+  respuesta.value = window.cipher.encode(parse, string);
+  
+} )
+
+decodificar.addEventListener ("click",() => {
+  let string = document.getElementById('texto').value;
+  let offset = document.getElementById("offset").value;
+  const parse = parseInt(offset);
+  let respuesta = document.getElementById("respuesta");
+  respuesta.value = window.cipher.decode(parse, string);
+ 
+} )
