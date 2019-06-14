@@ -28,6 +28,6 @@ Se recibió el feedback con el usuario y consideramos las siguientes modificacio
 
 ##### Prototipo final en Balsamiq:
   
-<https://github.com/MayraMurillo/cypherMayraMurillo/blob/master/pantalla%201.png>
-<https://github.com/MayraMurillo/cypherMayraMurillo/blob/master/pantalla%202.png>
-<https://github.com/MayraMurillo/cypherMayraMurillo/blob/master/pantalla%203.png>
+![alt text](<https://github.com/MayraMurillo/cypherMayraMurillo/blob/master/pantalla%201.png>)
+![alt text](<https://github.com/MayraMurillo/cypherMayraMurillo/blob/master/pantalla%202.png>)
+![alt text](<https://github.com/MayraMurillo/cypherMayraMurillo/blob/master/pantalla%203.png>)
