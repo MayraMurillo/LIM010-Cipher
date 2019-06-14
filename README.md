@@ -8,13 +8,15 @@ Con esta herramienta se busca proteger esta información de una manera fácil y 
 
 ### Imagen final del proyecto:
 
-
+![alt text].(https://github.com/MayraMurillo/LIM010-Cipher/blob/master/fotos/web1.png) 
+![alt text].(https://github.com/MayraMurillo/LIM010-Cipher/blob/master/fotos/web2.png) 
+![alt text].(https://github.com/MayraMurillo/LIM010-Cipher/blob/master/fotos/web3.png)
 
 ### Prototipo en papel y lapiz:
 
- <https://github.com/MayraMurillo/cypherMayraMurillo/blob/master/Boceto1.jpg>
- <https://github.com/MayraMurillo/cypherMayraMurillo/blob/master/Boceto2.jpg>
- <https://github.com/MayraMurillo/cypherMayraMurillo/blob/master/Boceto3.jpg>
+![alt text].(<https://github.com/MayraMurillo/cypherMayraMurillo/blob/master/Boceto1.jpg>)
+![alt text].(<https://github.com/MayraMurillo/cypherMayraMurillo/blob/master/Boceto2.jpg>)
+![alt text].(<https://github.com/MayraMurillo/cypherMayraMurillo/blob/master/Boceto3.jpg>)
 
 
 #### Feedback:
