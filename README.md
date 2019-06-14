@@ -9,18 +9,16 @@ Con esta herramienta se busca proteger esta información de una manera fácil y 
 ### Imagen final del proyecto:
 
 ![alt text].(https://github.com/MayraMurillo/LIM010-Cipher/blob/master/fotos/web1.png) 
-![alt text].(https://github.com/MayraMurillo/LIM010-Cipher/blob/master/fotos/web2.png)
+![alt text].(https://github.com/MayraMurillo/LIM010-Cipher/blob/master/fotos/web2.png) 
 ![alt text].(https://github.com/MayraMurillo/LIM010-Cipher/blob/master/fotos/web3.png)
-
-#### Prototipo en papel y lapiz:
 
  ![alt text].(<https://github.com/MayraMurillo/cypherMayraMurillo/blob/master/Boceto1.jpg>)
  ![alt text].(<https://github.com/MayraMurillo/cypherMayraMurillo/blob/master/Boceto2.jpg>)
  ![alt text].(<https://github.com/MayraMurillo/cypherMayraMurillo/blob/master/Boceto3.jpg>)
 
+![alt text].(<https://github.com/MayraMurillo/cypherMayraMurillo/blob/master/Boceto3.jpg>)
 
 ##### Feedback:
-Se recibió el feedback con el usuario y consideramos las siguientes modificaciones:
 
 -En los botones de cifrar y descifrar se ha agregado un poco de información que sea más amigable para que el usuario entienda la función a realizar.
 - Se agregó la información de los intentos pendientes para el ingreso de la clave.
