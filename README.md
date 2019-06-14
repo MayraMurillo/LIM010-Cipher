@@ -6,6 +6,10 @@ Con esta aplicación web se busca ayudar a equipos de fiscales y jueces comparti
 La aplicación está dirigida a jueces y fiscales de equipos especializados (como lucha anticorrupción, trata de personas, tráfico ilícito de drogas, etc) que manejan información confidencial que de ser filtrada afectaría sus investigaciones.
 Con esta herramienta se busca proteger esta información de una manera fácil y accesible para un usuario que no está muy familiarizado con la tecnología, es por ello el diseño sencillo del layout.
 
+### Imagen final del proyecto:
+
+
+
 ### Prototipo en papel y lapiz:
 
  <https://github.com/MayraMurillo/cypherMayraMurillo/blob/master/Boceto1.jpg>
