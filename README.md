@@ -8,15 +8,15 @@ Con esta herramienta se busca proteger esta información de una manera fácil y 
 
 ### Imagen final del proyecto:
 
-![alt text](https://github.com/MayraMurillo/LIM010-Cipher/blob/master/fotos/web1.png) 
-![alt text](https://github.com/MayraMurillo/LIM010-Cipher/blob/master/fotos/web2.png)
-![alt text](https://github.com/MayraMurillo/LIM010-Cipher/blob/master/fotos/web3.png)
+![alt text].(https://github.com/MayraMurillo/LIM010-Cipher/blob/master/fotos/web1.png) 
+![alt text].(https://github.com/MayraMurillo/LIM010-Cipher/blob/master/fotos/web2.png)
+![alt text].(https://github.com/MayraMurillo/LIM010-Cipher/blob/master/fotos/web3.png)
 
 #### Prototipo en papel y lapiz:
 
- ![alt text](<https://github.com/MayraMurillo/cypherMayraMurillo/blob/master/Boceto1.jpg>)
- ![alt text](<https://github.com/MayraMurillo/cypherMayraMurillo/blob/master/Boceto2.jpg>)
- ![alt text](<https://github.com/MayraMurillo/cypherMayraMurillo/blob/master/Boceto3.jpg>)
+ ![alt text].(<https://github.com/MayraMurillo/cypherMayraMurillo/blob/master/Boceto1.jpg>)
+ ![alt text].(<https://github.com/MayraMurillo/cypherMayraMurillo/blob/master/Boceto2.jpg>)
+ ![alt text].(<https://github.com/MayraMurillo/cypherMayraMurillo/blob/master/Boceto3.jpg>)
 
 
 ##### Feedback:
@@ -28,6 +28,6 @@ Se recibió el feedback con el usuario y consideramos las siguientes modificacio
 
 ###### Prototipo final en Balsamiq:
   
-![alt text](<https://github.com/MayraMurillo/cypherMayraMurillo/blob/master/pantalla%201.png>)
-![alt text](<https://github.com/MayraMurillo/cypherMayraMurillo/blob/master/pantalla%202.png>)
-![alt text](<https://github.com/MayraMurillo/cypherMayraMurillo/blob/master/pantalla%203.png>)
+![alt text].(<https://github.com/MayraMurillo/cypherMayraMurillo/blob/master/pantalla%201.png>)
+![alt text].(<https://github.com/MayraMurillo/cypherMayraMurillo/blob/master/pantalla%202.png>)
+![alt text].(<https://github.com/MayraMurillo/cypherMayraMurillo/blob/master/pantalla%203.png>)
