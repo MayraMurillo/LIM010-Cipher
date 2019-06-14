@@ -7,7 +7,7 @@ body{
 }
 
 header {
-  display: none;
+  display: flexbox;
   align-items: center;
   margin-bottom: 10px;
 }
