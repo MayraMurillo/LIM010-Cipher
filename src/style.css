@@ -76,12 +76,16 @@ ul {
 .botonpp3 {
   margin-top: 10px;
   margin-left: 20px;
+  border-radius: 7px;
+
   }
 
 .botonpp4 {
   margin-top: -53px;
   margin-left: 170px;
   margin-bottom: 10px;
+  border-radius: 7px;
+
 }
 
 
@@ -100,6 +104,7 @@ ul {
   color: #000066;
   font-size: 20px;
   margin-left: 25px;
+  margin-top: 5px;
   }
 
 .inputpp2 {
@@ -109,16 +114,18 @@ ul {
 
 .inputpp3 {
   width: 50%;
-  padding: 30px;
+  padding: 15px;
   box-sizing: border-box;
   margin-left: 25px;
+  margin-top: 5px;
 }
 
 .inputpp4 {
   width: 50%;
-  padding: 30px;
+  padding: 15px;
   box-sizing: border-box;
   margin-top: 10px;
+  margin-left: 25px;
 }
 
 .inputoffset {
@@ -127,6 +134,7 @@ ul {
   padding: 5px;
   box-sizing: border-box;
   margin-left: 25px;
+  margin-top: 5px;
 }
 
 footer{
@@ -146,20 +154,6 @@ ol {
   margin: 10px;
 }
 
-button {
-  display: inline-block;
-  padding: 15px 25px;
-  font-size: 20px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-color: #003366;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
-}
 
    
 
