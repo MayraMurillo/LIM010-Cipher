@@ -1,9 +1,10 @@
 //botones
 const cifrar = document.getElementById('cifrar');
 const descifrar = document.getElementById('descifrar');
-const password = document.getElementById("password");
 const login = document.getElementById("login");
 const inicio = document.getElementById('inicio');
+const codificar = document.getElementById("codificar");
+const decodificar = document.getElementById("decodificar");
 
 //pantallas
 const primerapantalla = document.getElementById('primerapantalla');
@@ -35,7 +36,7 @@ const clave = password.value;
  if (clave === "LABORATORIA"){
   segundapantalla.classList.add("hide");
   tercerapantalla.classList.remove("hide");}
- else if (contador<3) {
+ else if (contador<2) {
   contador++;
   document.getElementById("mensaje").innerHTML =("CLAVE ERRADA");
 }

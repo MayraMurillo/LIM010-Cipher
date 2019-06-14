@@ -11,7 +11,7 @@ window.cipher = {
     respuesta += String.fromCharCode(nuevoValorAscii);
   } else if (asciiNum >= 97 && asciiNum <= 122) {
     nuevoValorAscii = (asciiNum-97+offset)%26+97;
-    respuesta += ' ';
+    respuesta += String.fromCharCode(nuevoValorAscii);
 }
 }
  return respuesta;
@@ -24,12 +24,11 @@ window.cipher = {
     for (let i = 0; i < string.length; i++) {
       asciiNum = string.charCodeAt([i]);
       if (asciiNum >= 65 && asciiNum <= 90) {
-      nuevoValorAscii = (asciiNum-65-25-offset)%26+90;
+      nuevoValorAscii = (asciiNum-90-offset)%26+90;
       respuesta += String.fromCharCode(nuevoValorAscii);
     } else if (asciiNum >= 97 && asciiNum <= 122) {
-      nuevoValorAscii = (asciiNum-97-25-offset)%26+122;
+      nuevoValorAscii = (asciiNum-122-offset)%26+122;
       respuesta += String.fromCharCode(nuevoValorAscii);
-      respuesta += ' ';
     }
   }
     return respuesta;

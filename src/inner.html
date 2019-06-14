@@ -1,64 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Quando&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>SEGURIDAD DE LA INFORMACIÓN</title>
 
 </head>
 
 <body>
-    <div id="primerapantalla">
   <header>
-    <img id="mp" src="MP.JPG" alt="">
-    <h1 class="encabezado">SISTEMA DE PROTECCION DE LA INFORMACIÓN</h1>
-  </header>
- 
   <main>
+    <div class="logocontainer">         
+      <img id="mp" src="MP.JPG" alt="">
+    </div>
+      <h1 class="encabezado">SISTEMA DE PROTECCION DE LA INFORMACIÓN</h1>
+    </header>
+    
+    <div id="primerapantalla">
       <img id="pc" src="pc.jpg" alt="">
-      <ol>
+      <ul class="resumen">
       <li>Herramienta de ayuda para Jueces y Fiscales que manejan información
          sensible sobre procesos de lucha anticorrupción</li>
       <li>En esta página se podrá realizar el cifrado y descifrado de mensajes
           confidenciales entre la red de fiscales y jueces que llevan casos
           especiales sin que estos puedan ser filtrados a terceros</li>
-      </ol>
-
-      <br>
-        <button id="cifrar" type="button" name="button">Ingreso para cifrar un mensaje</button>
-        <button id="descifrar" type="button" name="button">Ingreso para descifrar un mensaje</button>
+      </ul>
+        <button class="boton botonpp1" id="cifrar" type="button" name="button">Ingreso para cifrar un mensaje</button>
+        <button class="boton botonpp12" id="descifrar" type="button" name="button">Ingreso para descifrar un mensaje</button>
       
   
   </div>
-  
       <div id="segundapantalla">
-  
-  
-      <p>USUARIO</p><input type="text">
-      <p>CONTRASEÑA</p><input id="password" type="password">
-      <p id="mensaje"></p>
-      <button id="login">INGRESAR</button>
-  
+      <p class="parrafo parrafopp2">USUARIO</p>
+      <input class="input inputpp2" type="text" name="" value="">
+      <p class="parrafo parrafopp2">CONTRASEÑA</p>
+      <input class="input inputpp2" id="password" type="password" name="" value="">
+      <p class="parrafo parrafopp2" id="mensaje"></p>
+      <button class="boton botonpp2" id="login" type="" name="button">INGRESAR</button>
      </div>
   
   <div id="tercerapantalla">
   
-     <p>Ingresa tu texto</p>
-     <input id="texto" type="text">
-     <p>Clave</p>
-     <input id="offset" type="number" name="numero">  
-     <br>
-     <button id="codificar" type="button" name="button">Cifrar</button>
-     <button id="decodificar" type="button" name="button">Descifrar</button>
-     <br>
-     <input id="respuesta" type="text">
-     <br>
-     <button id="inicio" type="button" name="button">Volver al inicio</button>
+     <p class="parrafo parrafopp3">Ingresa tu texto</p>
+     <input class="input inputpp3" id="texto" type="text" name="" value="">
+     <p class="parrafo parrafopp3">Clave</p>
+     <input class="input inputoffset" id="offset" type="number" name="numero">  
+     <button class="boton botonpp3" id="codificar" type="button" name="button">Cifrar</button>
+     <button class="boton botonpp4" id="decodificar" type="button" name="button">Descifrar</button>
+     <input class="input inputpp4" id="respuesta" type="text" name="" value="">
+     <button class="boton botonpp3" id="inicio" type="button" name="button">Volver al inicio</button>
   
    </div>
   </main>
-   <footer>
-     <P>Prohibida la reproducción parcial o total de la información mostrada</P>
+   <footer class="footer">
+     <P>Creado por Mayra Murillo - Prohibida la reproducción parcial o total de la información mostrada</P>
    </footer>
    <script src="app.js"></script>
    <script src="cipher.js"></script>
