@@ -23,9 +23,12 @@ Con esta herramienta se busca proteger esta información de una manera fácil y 
 Se recibió el feedback con el usuario y consideramos las siguientes modificaciones:
 
 -En los botones de cifrar y descifrar se ha agregado un poco de información que sea más amigable para que el usuario entienda la función a realizar.
+
 -Se agregó la información de los intentos pendientes para el ingreso de la clave.
+
 -En todas las pantallas se agregó un encabezado a fin de que la presentación no sea tan "fría".
 -Se agregaron los botones de cifrado y descifrado en la ultima pantalla a fin de hacer más facil la interacción con el usuario.
+
 -Se agregó el boton de volver al inicio de acuerdo a los comentarios recibidos.
 
 ##### Prototipo final en Balsamiq:
