@@ -92,22 +92,21 @@ h1 {
 }
 
 .parrafopp2 {
-  color: #000066;
-  font-size: 20px;
   margin-left: 500px;
 }
 
 .parrafopp3 {
-  color: #000066;
-  font-size: 20px;
   margin-left: 25px;
   margin-top: 5px;
   box-sizing: border-box;
 }
 
 .parrafopp4 {
+<<<<<<< HEAD
   color: #000066;
   font-size: 20px;
+=======
+>>>>>>> 6e46ab24b7b4c0b33f286916da80f20b4fb6b8ca
   margin-bottom: 0px;
   margin-top: 10px;
   margin-left: 25px;
@@ -154,4 +153,10 @@ footer {
   text-align: center;
   color: darkslategrey;
   margin-top: 30px;
+<<<<<<< HEAD
 }
+=======
+}
+ 
+  
+>>>>>>> 6e46ab24b7b4c0b33f286916da80f20b4fb6b8ca

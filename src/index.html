@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <link href="https://fonts.googleapis.com/css?family=Quando|Abril+Fatface" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quando%7CAbril+Fatface" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>SEGURIDAD DE LA INFORMACIÓN</title>
 
@@ -36,25 +36,27 @@
 
     </div>
     <div id="segundapantalla">
-      <p class="parrafo parrafopp2">USUARIO</p>
-      <input class="input inputpp2" type="text" name="" value="">
-      <p class="parrafo parrafopp2">CONTRASEÑA</p>
-      <input class="input inputpp2" id="password" type="password" name="" value="">
+      <form action="user">
+        <p class="parrafo parrafopp2">USUARIO</p>
+        <input class="input inputpp2" type="text" value="">
+        <p class="parrafo parrafopp2">CONTRASEÑA</p>
+        <input class="input inputpp2" id="password" type="password" value="">
+      </form>
       <p class="parrafo parrafopp2" id="mensaje"></p>
-      <button class="boton botonpp2" id="login" type="" name="button">INGRESAR</button>
+      <button class="boton botonpp2" id="login" name="button">INGRESAR</button>
     </div>
 
     <div id="tercerapantalla">
-
-      <label class="parrafo parrafopp3">Ingresa tu texto</label>
-      <input class="input inputpp3" id="texto" type="text" name="" value="">
-      <label class="parrafo parrafopp4">Clave</label>
-      <input class="input inputoffset" id="offset" type="number" name="numero">
-      <button class="boton botonpp3" id="codificar" type="button" name="button">Cifrar</button>
-      <button class="boton botonpp3" id="decodificar" type="button" name="button">Descifrar</button>
-      <input class="input inputpp4" id="respuesta" type="text" name="" value="">
-      <button class="boton botonpp3" id="inicio" type="button" name="button">Volver al inicio</button>
-
+      <form action="cesar">
+        <label class="parrafo parrafopp3">Ingresa tu texto</label>
+        <input class="input inputpp3" id="texto" type="text" value="">
+        <label class="parrafo parrafopp4">Clave</label>
+        <input class="input inputoffset" id="offset" type="number" name="numero">
+        <button class="boton botonpp3" id="codificar" type="button" name="button">Cifrar</button>
+        <button class="boton botonpp3" id="decodificar" type="button" name="button">Descifrar</button>
+        <input class="input inputpp4" id="respuesta" type="text" value="">
+        <button class="boton botonpp3" id="inicio" type="button" name="button">Volver al inicio</button>
+      </form>
     </div>
   </main>
   <footer class="footer">
